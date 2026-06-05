@@ -22,7 +22,3 @@ TaskNest is a responsive task management web application built using HTML, CSS, 
 https://nosheenawan467.github.io/Hex-Software-Internship-Projects/
 
 More internship projects will be added to this repository as they are completed.
-
----
-
-More internship projects will be added to this repository as they are completed.
