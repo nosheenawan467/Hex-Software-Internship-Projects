@@ -88,6 +88,9 @@ Displays all saved tasks with options to:
 * Open index.html in a web browser.
 * Start managing your tasks.
 
+## Live Demo
+https://nosheenawan467.github.io/Hex-Software-Internship-Projects/TaskNest/
+
 ## Responsive Design
 The application is optimized for: 
 * Desktop Computers
