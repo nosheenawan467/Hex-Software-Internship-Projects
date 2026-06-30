@@ -55,5 +55,32 @@ GritHouse is a modern, responsive single-page gym website built using HTML5, CSS
 
 https://nosheenawan467.github.io/Hex-Software-Internship-Projects/GritHouse/
 
+### 3. ReadNest – Modern Digital Library Website
 
-More internship projects will be added to this repository as they are completed.
+ReadNest is a modern, responsive digital library web application built using HTML5, CSS3, and JavaScript. It allows users to browse books, search titles, borrow and return books, manage a personal wishlist, and track reading activity through LocalStorage. The project features a clean, user-friendly interface with interactive components and responsive design.
+
+#### Features
+
+- Modern responsive design
+- Hero image slider
+- Sticky navigation bar
+- Smooth scrolling navigation
+- Live book search
+- Book categories section
+- Recently Added books carousel
+- Borrow and return book system
+- Borrow history tracking
+- Wishlist management
+- Reading statistics dashboard
+- LocalStorage support for data persistence
+- Responsive design for desktop, tablet, and mobile devices
+- Professional footer
+
+#### Project Folder
+`ReadNest/`
+
+#### Live Demo
+
+https://nosheenawan467.github.io/Hex-Software-Internship-Projects/ReadNest/
+
+This repository showcases the frontend web development projects completed during my internship at Hex Software. Each project demonstrates responsive design, modern UI development, and practical JavaScript implementation using real-world concepts.
