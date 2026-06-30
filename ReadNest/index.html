@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>ReadNest</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Swiper -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/variables.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/animation.css">
+
+</head>
+
+<body>
+
+    <!--==============================
+            Loader
+================================-->
+
+    <div class="loader">
+
+        <span></span>
+
+    </div>
+
+    <!--==============================
+            Header
+================================-->
+
+    <header>
+
+        <nav class="navbar container">
+
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+
+                <img src="images/logo.png" alt="logo">
+
+            </a>
+
+            <!-- Desktop Menu -->
+
+            <ul class="nav-links">
+
+                <li><a class="active" href="#home">Home</a></li>
+
+                <li><a href="#my-library">My Library</a></li>
+
+                <li><a href="#categories">Categories</a></li>
+
+                <li><a href="#borrowed">Borrowed</a></li>
+
+                <li><a href="#wishlist">Wishlist</a></li>
+
+                <li><a href="#stats">Stats</a></li>
+
+            </ul>
+
+            <!-- Icons -->
+
+            <div class="nav-icons">
+
+       <a href="#search">
+<button>
+
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+       </a>
+                
+<button>
+
+                    <i class="fa-regular fa-bell"></i>
+
+</button>
+
+                <img
+                    src="images/icons/avatar.png"
+                    alt="profile">
+
+                <button class="menu-btn">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--==============================
+        Mobile Sidebar
+================================-->
+
+    <aside class="sidebar">
+
+        <button class="close-btn">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#my-library">My Library</a></li>
+
+            <li><a href="#categories">Categories</a></li>
+
+            <li><a href="#borrowed">Borrowed</a></li>
+
+            <li><a href="#wishlist">Wishlist</a></li>
+
+            <li><a href="#stats">Stats</a></li>
+
+        </ul>
+
+    </aside>
+
+    <!--==============================
+            Hero
+================================-->
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="swiper heroSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero1.png" alt="Hero">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-text">
+
+                            <span class="welcome">
+                                🌿 Welcome Back
+                            </span>
+
+                            <h1>
+                                Every Book
+                                <br>
+                                Tells a
+                                <span>Story</span>
+                            </h1>
+
+                            <p>
+                                Search, organize and manage your personal library
+                                with ease. Keep your reading journey beautiful.
+                            </p>
+
+                            <a href="#my-library" class="btn">
+                                Explore My Library
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero2.JPG" alt="Hero">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-text">
+
+                            <span class="welcome">
+                                📚 Personal Library
+                            </span>
+
+                            <h1>
+                                Organize
+                                <br>
+                                Your Reading
+                            </h1>
+
+                            <p>
+                                Categorize books, track your reading progress,
+                                manage borrowing history and wishlist.
+
+                            </p>
+
+                            <a href="#my-library" class="btn">
+                                Browse Library
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero3.png" alt="Hero">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-text">
+
+                            <span class="welcome">
+                                ☕ Cozy Reading
+                            </span>
+
+                            <h1>
+                                Build Your
+                                <br>
+                                Dream Library
+                            </h1>
+
+                            <p>
+
+                                Save your favorite books, continue reading,
+                                and discover your next adventure.
+
+                            </p>
+
+                            <a href="#my-library" class="btn">
+                                Start Reading
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </div>
+
+</section>
+    
+    <!--==============================
+        SEARCH & FILTER
+================================-->
+
+<section class="search-section" id="search">
+
+    <div class="container">
+
+        <div class="search-card">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search books by title or author...">
+
+            </div>
+
+            <select id="genreFilter">
+
+                <option value="">All Genres</option>
+                <option>Business</option>
+                <option>Fantasy</option>
+                <option>Fiction</option>
+                <option>History</option>
+                <option>Mystery</option>
+                <option>Productivity</option>
+                <option>Programming</option>
+                <option>Self Help</option>
+
+            </select>
+
+            <button class="search-btn">
+
+                Search
+
+            </button>
+
+            <button class="reset-btn">
+
+                Reset
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Search Results -->
+
+<section class="search-results" id="searchResultsSection">
+
+    <div class="section-title">
+
+        <h2>Search Results</h2>
+
+    </div>
+
+    <div class="swiper booksSwiperSearch">
+
+        <div class="swiper-wrapper"
+
+             id="searchResults">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Library Buttons -->
+
+<div class="library-actions">
+
+    <button class="action-btn">
+
+        <i class="fa-solid fa-plus"></i>
+
+        Add Book
+
+    </button>
+
+    <button class="action-btn delete">
+
+        <i class="fa-solid fa-trash"></i>
+
+        Delete Book
+
+    </button>
+
+</div>
+<!--========================================
+            Explore Categories
+=========================================-->
+
+<section class="categories section" id="categories">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+
+                <h2 class="section-title">Explore Categories</h2>
+
+                <p>Discover books organized by genre to find your next great read.</p>
+
+            </div>
+
+            <a href="#" class="view-all">
+
+                View All
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="categories-grid">
+
+            <div class="category-card">
+
+                <img src="images/categories/fiction.JPG" alt="">
+
+                <h4>Fiction</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/romance.JPG" alt="">
+
+                <h4>Romance</h4>
+
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/scifi.JPG" alt="">
+
+                <h4>Sci-Fi</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/self-help.JPG" alt="">
+
+                <h4>Self Help</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/history.JPG" alt="">
+
+                <h4>History</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/mystery.JPG" alt="">
+
+                <h4>Mystery</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/poetry.JPG" alt="">
+
+                <h4>Poetry</h4>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/categories/more.JPG" alt="">
+
+                <h4>Browse More</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+            Recently Added Books
+=========================================-->
+
+<section class="recent-books section" id="my-library">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+
+                <h2 class="section-title">Recently Added</h2>
+
+                <p>Explore recently added books available to borrow.</p>
+
+            </div>
+
+            <a href="#" class="view-all">
+
+                View All
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="swiper booksSwiper">
+
+            <div class="swiper-wrapper" id="booksContainer">
+
+                <!-- JavaScript will create cards here -->
+
+            </div>
+
+            <div class="swiper-button-next books-next"></div>
+
+            <div class="swiper-button-prev books-prev"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+        Reading Dashboard
+=========================================-->
+
+<section class="reading-dashboard section" id="stats">
+
+    <div class="container">
+
+        <div class="dashboard-grid">
+
+            <!-- Currently Reading -->
+
+            <div class="currently-reading">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2 class="section-title">Currently Reading</h2>
+
+                        <p>Track your reading progress and continue where you left off.</p>
+
+                    </div>
+
+                    <a href="#my-library" class="view-all">
+
+                        View All
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <div class="reading-list" id="readingList">
+
+                </div>
+
+            </div>
+
+
+            <!-- Library Stats -->
+
+            <div class="library-stats">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2 class="section-title">My Library Stats</h2>
+
+                        <p>A quick overview of your personal library activity.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="stats-grid">
+<div class="stat-card green">
+    <i class="fa-solid fa-book"></i>
+    <h3 id="totalBooks"></h3>
+    <span>Library Collection</span>
+</div>
+
+<div class="stat-card peach">
+    <i class="fa-solid fa-book-open-reader"></i>
+    <h3 id="readingCount">0</h3>
+    <span>Currently Reading</span>
+</div>
+
+<div class="stat-card purple">
+    <i class="fa-solid fa-circle-check"></i>
+    <h3 id="historyCount"></h3>
+    <span>Borrow History</span>
+</div>
+
+<div class="stat-card yellow">
+    <i class="fa-solid fa-heart"></i>
+    <h3 id="wishlistCount">5</h3>
+    <span>Saved to Wishlist</span>
+</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+        Borrowing & Wishlist
+=========================================-->
+
+<section class="borrow-section section" id="borrowed">
+
+    <div class="container">
+
+        <div class="borrow-grid">
+
+            <!-- Borrow History -->
+
+            <div class="borrow-history">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2 class="section-title">
+                            Borrowing History
+                        </h2>
+
+                        <p>View your borrowing and return history.</p>
+
+                    </div>
+
+                    <a href="#" class="view-all">
+
+                        View All
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <div id="borrowHistory">
+
+                </div>
+
+            </div>
+
+
+            <!-- Wishlist -->
+
+            <div class="wishlist" id="wishlist">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2 class="section-title">
+
+                            My Wishlist
+
+                        </h2>
+
+                        <p>Save books you'd like to borrow later.</p>
+
+                    </div>
+
+                    <a href="#" class="view-all">
+
+                        View All
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <div class="wishlist-grid" id="wishlistGrid">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                <img src="images/logo.png" alt="logo">
+
+            </a>
+
+                <p>
+                    Your cozy digital library for discovering, organizing, and enjoying books.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+
+            <a href="#my-library">My Library</a>
+
+            <a href="#categories">Categories</a>
+
+            <a href="#borrowed">Borrowed</a>
+
+            <a href="#wishlist">Wishlist</a>
+
+            <a href="#stats">Stats</a>
+
+            </div>
+
+            <div class="footer-social">
+
+    <h4>Connect</h4>
+
+    <div class="social-icons">
+
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+           <p>
+© 2026 ReadNest | Developed as Web Development Internship Project using HTML, CSS and JavaScript.
+</p>
+
+        </div>
+
+    </div>
+
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/slider.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

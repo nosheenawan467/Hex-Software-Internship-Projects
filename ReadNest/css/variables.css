@@ -1,0 +1,165 @@
+
+:root{
+
+    /*=========================
+        COLORS
+    =========================*/
+
+    --primary:#6FAE8D;
+    --primary-dark:#5A9778;
+    --secondary:#F4A88B;
+
+    --bg:#FFFDF8;
+    --bg-light:#F8F5EF;
+
+    --white:#ffffff;
+
+    --text:#2F2F2F;
+    --text-light:#6F6F6F;
+
+    --border:#ECE7DE;
+
+    --success:#5CB85C;
+    --warning:#F0AD4E;
+    --danger:#E57373;
+
+    /*=========================
+        TYPOGRAPHY
+    =========================*/
+
+    --heading-font:"Playfair Display", serif;
+    --body-font:"Poppins", sans-serif;
+
+    --fs-12:12px;
+    --fs-14:14px;
+    --fs-16:16px;
+    --fs-18:18px;
+    --fs-20:20px;
+    --fs-24:24px;
+    --fs-28:28px;
+    --fs-36:36px;
+    --fs-42:42px;
+    --fs-56:56px;
+
+    /*=========================
+        FONT WEIGHTS
+    =========================*/
+
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-600:600;
+    --fw-700:700;
+
+    /*=========================
+        SPACING
+    =========================*/
+
+    --section-padding:100px;
+
+    --gap-10:10px;
+    --gap-15:15px;
+    --gap-20:20px;
+    --gap-25:25px;
+    --gap-30:30px;
+    --gap-40:40px;
+
+    /*=========================
+        BORDER RADIUS
+    =========================*/
+
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:20px;
+    --radius-xl:28px;
+    --radius-circle:50%;
+
+    /*=========================
+        SHADOWS
+    =========================*/
+
+    --shadow-sm:0 4px 10px rgba(0,0,0,.05);
+
+    --shadow-md:0 10px 25px rgba(0,0,0,.08);
+
+    --shadow-lg:0 18px 40px rgba(0,0,0,.12);
+
+    /*=========================
+        TRANSITIONS
+    =========================*/
+
+    --transition:.3s ease;
+
+    /*=========================
+        CONTAINER
+    =========================*/
+--container:1400px;
+
+/*=========================
+    NAVBAR
+=========================*/
+
+--navbar-height:90px;
+
+/*=========================
+    FOOTER
+=========================*/
+
+--footer-bg:#3B2F2F;
+--footer-text:#F8F5EF;
+
+/*=========================
+    GRADIENTS
+=========================*/
+
+--primary-gradient:linear-gradient(135deg,#6FAE8D,#5A9778);
+
+--hero-overlay:linear-gradient(
+90deg,
+rgba(255,253,248,.92) 0%,
+rgba(255,253,248,.70) 40%,
+rgba(255,253,248,.15) 100%
+);
+
+/*=========================
+    Z INDEX
+=========================*/
+
+--z-loader:9999;
+--z-navbar:999;
+--z-sidebar:1000;
+--z-modal:2000;
+
+/*=========================
+    BORDER
+=========================*/
+
+--border-light:1px solid var(--border);
+
+/*=========================
+    HOVER
+=========================*/
+
+--hover-scale:1.04;
+
+/*=========================
+    MAX WIDTHS
+=========================*/
+
+--hero-content:480px;
+
+--section-width:1200px;
+
+/*=========================
+    HEADER
+=========================*/
+
+--header-shadow:0 10px 30px rgba(0,0,0,.06);
+
+/*=========================
+    BUTTON
+=========================*/
+
+--button-height:50px;
+}
+
