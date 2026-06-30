@@ -27,31 +27,54 @@ ReadNest is a responsive digital library web application built using HTML, CSS a
 - Font Awesome
 
 ## Folder Structure
-ReadNest/
-│
-├── css/
-│ ├── animation.css
-│ ├── responsive.css
-│ ├── style.css
-│ └── variables.css
-│
-├── images/
-│ ├── books/
-│ ├── categories/
-│ ├── icons/
-│ ├── hero.png
-│ ├── hero1.png
-│ ├── hero2.JPG
-│ ├── hero3.png
-│ └── logo.png
-│
-├── js/
-│ ├── app.js
-│ └── slider.js
-│
-├── index.html
-└── README.md
 
+ReadNest/
+
+│
+
+├── css/
+
+│ ├── animation.css
+
+│ ├── responsive.css
+
+│ ├── style.css
+
+│ └── variables.css
+
+│
+
+├── images/
+
+│ ├── books/
+
+│ ├── categories/
+
+│ ├── icons/
+
+│ ├── hero.png
+
+│ ├── hero1.png
+
+│ ├── hero2.JPG
+
+│ ├── hero3.png
+
+│ └── logo.png
+
+│
+
+├── js/
+
+│ ├── app.js
+
+│ └── slider.js
+
+│
+
+├── index.html
+
+└── README.md
 
 ## Main Functionalities
 
